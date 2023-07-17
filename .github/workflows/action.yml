@@ -2,6 +2,7 @@ on:
   push:
     branchs:
       - main
+      - master
 jobs:
   print_hello:
     runs-on: ubuntu-latest
